@@ -6,4 +6,9 @@ def greet():
 def main():
 	greet()
 
+def double(func):
+    func()
+    print('''Let's try again!''')
+    func()	
+	
 main()
