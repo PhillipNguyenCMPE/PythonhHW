@@ -1,4 +1,4 @@
-def palin(someList):
+def palindrome(someList):
     status = True
     if len(someList) <= 0:
         return False;

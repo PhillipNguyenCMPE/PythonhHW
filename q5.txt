@@ -1,0 +1,5 @@
+#1.	The change inside increment_int_a does not change the variable a after the function call
+#2.	The change inside increment_int_b does change the variable b after the function call
+#3.	They are different because the increment_int_a function does a pass by value which does not affect the variable a.
+	The increment_int_b function does a pass by reference in the parameter which the location of variable b will be used to change its value.
+
