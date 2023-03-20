@@ -1,5 +1,5 @@
-from double import double
-from log import timestamp
+from test import double
+from test import timestamp
 def double(func):
     func()
     print('''Let's try again!''')
