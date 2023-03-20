@@ -1,5 +1,5 @@
-from test import greet
-from test import hi
+from test import double
+from test import log
 def double(func):
     func()
     print('''Let's try again!''')
