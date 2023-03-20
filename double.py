@@ -11,4 +11,3 @@ def double(func):
     print('''Let's try again!''')
     func()	
 	
-main()
