@@ -4,4 +4,4 @@ def sort_dictionary(d1):
 	for key in sorted_d1:
 		temp=(key,d1[key][0])
 		reversed.append(temp)
-		return reversed
+	return reversed
