@@ -11,6 +11,7 @@ def cacti_number(plot):
     for x in range(len(plot)):
         if(len(plot)) == 1:
             plot[x] = 1
+	    cacti = cacti + 1
             break
         for y in range(row):
             if plot[x][y] == 0:
