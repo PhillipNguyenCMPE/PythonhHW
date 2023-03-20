@@ -8,4 +8,3 @@ def timestamp(func):
     time.ctime()
     func()
 
-main()
