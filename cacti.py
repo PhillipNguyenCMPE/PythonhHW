@@ -1,5 +1,3 @@
-for x in plot:
-    print(x)
 def cacti_number(plot):
     total = 0
     cacti = 0
