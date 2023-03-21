@@ -1,7 +1,7 @@
 
 def timestamp(func):
 	def wrapper():
-		time.ctime()
+		print(time.ctime())
 		func()
 	return wrapper
 
