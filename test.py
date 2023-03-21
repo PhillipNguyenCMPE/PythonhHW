@@ -1,10 +1,19 @@
 from double import double
-from log import timestamp
 
-def double(func):
-    func()
-    print('''Let's try again!''')
-    func()
-def timestamp(func):
-    time.ctime()
-    func()
+@timestamp
+def greet():
+    print('Hello World!')
+def main():
+    greet()
+main()
+
+from log import timestamp
+@timestamp
+def hi():
+    print('hi')
+    
+def main():
+    hi()
+main() 
+          
+          
